@@ -1,0 +1,7 @@
+.medium-zoom-image--opened {
+    position: relative;
+    cursor: pointer;
+    cursor: zoom-out;
+    will-change: transform;
+    z-index: 999;
+}

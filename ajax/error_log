@@ -1,0 +1,5 @@
+[11-Jan-2021 08:52:44 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ClienteClass::updateCustomerDetailsWithLatLng(), 8 passed in /home1/senshi/public_html/ajax/verificarDireccion.php on line 89 and exactly 9 expected in /home1/senshi/public_html/class/ClienteClass.php:214
+Stack trace:
+#0 /home1/senshi/public_html/ajax/verificarDireccion.php(89): ClienteClass->updateCustomerDetailsWithLatLng('85965599', 'Jir\xC3\xB3n Jos\xC3\xA9 Pe...', '931991059', '86', '1969-12-31', 'Guevara Santos', '-12.084464', '-77.0425302')
+#1 {main}
+  thrown in /home1/senshi/public_html/class/ClienteClass.php on line 214

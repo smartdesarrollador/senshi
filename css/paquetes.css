@@ -1,0 +1,10 @@
+.text-info {
+    color: #c23032 !important;
+}
+
+#formComprar .input-group {
+    width: 100% !important;
+}
+#formComprar input:read-only{
+    width: 55px !important;
+}

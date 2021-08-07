@@ -1,0 +1,748 @@
+Compra Fallida IDCLIENTE: 19
+EMAIL: user@user.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_test_bUgtgehB7egDFQSk","code":"card_declined","decline_code":"lost_card","merchant_message":"Tarjeta perdida. La tarjeta fue bloqueada y reportada al banco emisor como una tarjeta perdida.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación."}Hora y fecha: 2019/12/14 01:21:55pm
+
+Compra Fallida IDCLIENTE: 30
+EMAIL: maurojohen@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'amount' es inválido.  El valor debe ser mayor o igual que '300' (3 soles) . ","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"amount"}Hora y fecha: 2020/05/12 05:48:20pm
+
+Compra Fallida IDCLIENTE: 30
+EMAIL: maurojohen@gmail.com
+Mensaje{"message": "Internal server error"}Hora y fecha: 2020/05/12 06:48:19pm
+
+Compra Fallida IDCLIENTE: 30
+EMAIL: maurojohen@gmail.com
+Mensaje{"message": "Internal server error"}Hora y fecha: 2020/05/12 06:48:39pm
+
+Compra Fallida IDCLIENTE: 30
+EMAIL: maurojohen@gmail.com
+Mensaje{"message": "Internal server error"}Hora y fecha: 2020/05/12 06:49:02pm
+
+Compra Fallida IDCLIENTE: 30
+EMAIL: maurojohen@gmail.com
+Mensaje{"message": "Internal server error"}Hora y fecha: 2020/05/12 07:33:32pm
+
+Compra Fallida IDCLIENTE: 80
+EMAIL: maurojohen@gmail.com
+Mensaje{"object":"error","type":"expiracion_invalida","charge_id":"chr_test_QYLD7YkrQtlgMEg6","code":"DNGA0054","merchant_message":"Fecha de Expiracion Invalida.","user_message":"La fecha de expiración de su tarjeta es inválida. Intente nuevamente o utilice otra tarjeta."}Hora y fecha: 2020/05/22 04:51:00pm
+
+Compra Fallida IDCLIENTE: 499
+EMAIL: marysabel21@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_PHyz5fjPOSrcd38s","code":"card_declined","decline_code":"expired_card","merchant_message":"Tarjeta vencida. La tarjeta está vencida o la fecha de vencimiento ingresada es incorrecta.","user_message":"Su tarjeta está vencida. Verifica la fecha de vencimiento de tu tarjeta e ingrésalos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta."}Hora y fecha: 2021/01/12 06:15:26pm
+
+Compra Fallida IDCLIENTE: 499
+EMAIL: marysabel21@hotmail.com
+Mensaje{"message": "Endpoint request timed out"}Hora y fecha: 2021/01/12 06:19:12pm
+
+Compra Fallida IDCLIENTE: 499
+EMAIL: marysabel21@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_xLyy1YiczMKkx0Nn","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/01/12 06:21:19pm
+
+Compra Fallida IDCLIENTE: 499
+EMAIL: marysabel21@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_Ucaf0srb6J3kISrq","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/01/12 06:25:00pm
+
+Compra Fallida IDCLIENTE: 643
+EMAIL: akp.ogata@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_0jyJNAHnGdQXq2ya","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/12 08:13:27pm
+
+Compra Fallida IDCLIENTE: 271
+EMAIL: sigerilim@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_EwqXs1qJj21iwVvQ","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/17 01:42:58pm
+
+Compra Fallida IDCLIENTE: 174
+EMAIL: valeria.minaya99@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_gspDlPwT1z3RCp5o","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/21 07:05:21pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"message": "Endpoint request timed out"}Hora y fecha: 2021/01/22 02:17:49pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"message": "Endpoint request timed out"}Hora y fecha: 2021/01/22 02:19:23pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_LyyVjdq9So2P68vu","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/01/22 02:20:42pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_qhaChWyxBQYTUtmq","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/01/22 02:22:24pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_Up2NkIL1LNhGFtfj","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/01/22 02:25:10pm
+
+Compra Fallida IDCLIENTE: 919
+EMAIL: cristinalay@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_YedhmLVfClB4DkHT","code":"","merchant_message":"La tarjeta del cliente ha excedido el numero maximo de intentos diario.","user_message":"Esta tarjeta ha excedido el numero maximo de intentos de compra "}Hora y fecha: 2021/01/22 02:44:18pm
+
+Compra Fallida IDCLIENTE: 922
+EMAIL: gamery2410@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_4cprIuTmfgvCQIL9","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/23 12:51:02pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:41:43pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:43:11pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:44:06pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:47:15pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:49:06pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:50:42pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:52:28pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 06:53:26pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 07:02:44pm
+
+Compra Fallida IDCLIENTE: 942
+EMAIL: michicb@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/01/29 07:21:13pm
+
+Compra Fallida IDCLIENTE: 598
+EMAIL: diesanzar@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_QIxQp9FDP5qjuPIE","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/29 07:34:21pm
+
+Compra Fallida IDCLIENTE: 598
+EMAIL: diesanzar@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_fEXzptOPC2ULmV5I","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/29 07:36:01pm
+
+Compra Fallida IDCLIENTE: 606
+EMAIL: pepeluilam71@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_Mupvk4UvaSNh9Vp1","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/01/30 06:39:22pm
+
+Compra Fallida IDCLIENTE: 499
+EMAIL: marysabel21@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_6dYZkfP8vWkBx5tT","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/03 06:53:23pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'last_name' es inválido o está vacío, debe ser de menos de 50 caracteres. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"last_name"}Hora y fecha: 2021/02/04 12:33:45pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_TYQ3WC8hL8BZYs0a","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/05 11:49:08am
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_6131cBt7gdwFATcd","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/05 11:59:33am
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_z0GOHnjeJR8JO6e4","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/05 12:22:58pm
+
+Compra Fallida IDCLIENTE: 918
+EMAIL: cristinalaybrenner@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_gYHZBlqDVOd8tb4t","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/05 12:25:25pm
+
+Compra Fallida IDCLIENTE: 953
+EMAIL: mica_r14@yahoo.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_8T0vaPad7U30KbhD","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/05 01:02:55pm
+
+Compra Fallida IDCLIENTE: 572
+EMAIL: alexxakim_castillo@outlook.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_SKeExIyfdV6oj9JI","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/06 02:52:04pm
+
+Compra Fallida IDCLIENTE: 572
+EMAIL: alexxakim_castillo@outlook.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_EJMQ0pxGdRdMWePu","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/06 03:03:28pm
+
+Compra Fallida IDCLIENTE: 572
+EMAIL: alexxakim_castillo@outlook.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_TK2VxHu4iNDrj9OH","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/06 03:05:50pm
+
+Compra Fallida IDCLIENTE: 572
+EMAIL: alexxakim_castillo@outlook.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_o6CFSrkx7wRvrbDE","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/06 03:08:36pm
+
+Compra Fallida IDCLIENTE: 962
+EMAIL: abgmapo@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_KsChQz1PsmO2XTo7","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/06 11:28:22pm
+
+Compra Fallida IDCLIENTE: 572
+EMAIL: alexxakim_castillo@outlook.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_zg4lpH4ymEJXYKVk","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/09 03:28:34pm
+
+Compra Fallida IDCLIENTE: 977
+EMAIL: kevinpers@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_HaWsUsMyJWORwExO","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/09 08:21:44pm
+
+Compra Fallida IDCLIENTE: 981
+EMAIL: cotrinawilly9@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_ij0gJrJjfe8mISuB","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/02/10 02:09:31pm
+
+Compra Fallida IDCLIENTE: 981
+EMAIL: cotrinawilly9@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_moIaCfLBcfvW3vwy","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/02/10 02:10:44pm
+
+Compra Fallida IDCLIENTE: 981
+EMAIL: cotrinawilly9@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_zS9vHnvnRc1JwjPl","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 02:15:52pm
+
+Compra Fallida IDCLIENTE: 981
+EMAIL: cotrinawilly9@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_8tx94zmkuqnMUPD9","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 02:16:34pm
+
+Compra Fallida IDCLIENTE: 982
+EMAIL: xxyoung222@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_DcyI1tUn75qLQiQf","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/02/10 02:28:34pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_3QA7FL0Ck0WPFTsJ","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/10 05:37:25pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_O70nTiSo2CJUCqXS","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/10 05:40:03pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_XUoEapTTxU6zD1Fv","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 05:44:24pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_928A2PoWcll7KxZM","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 05:46:55pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_PMhrsreVDCiadnWE","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 05:51:47pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_5jxDmZOGOmro84d7","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 05:52:53pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_fmRv3oXEAplX7oNk","code":"","merchant_message":"El correo del cliente ha excedido el numero maximo de intentos diario.","user_message":"Este cliente ha excedido el numero máximo de intentos de compra"}Hora y fecha: 2021/02/10 05:55:14pm
+
+Compra Fallida IDCLIENTE: 174
+EMAIL: valeria.minaya99@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_wBvEZgfuL9lhii8M","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/11 06:42:50pm
+
+Compra Fallida IDCLIENTE: 1002
+EMAIL: cristianarturo_arias@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_S57KBHOEp6ncicuL","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/14 12:35:07pm
+
+Compra Fallida IDCLIENTE: 972
+EMAIL: ximenamasifuen@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_zsqWz8coupMfkhtS","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/16 11:09:13am
+
+Compra Fallida IDCLIENTE: 1042
+EMAIL: infantex2@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_7gjARP1ij0RCejSO","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/02/23 10:28:45am
+
+Compra Fallida IDCLIENTE: 1042
+EMAIL: infantex2@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_7Wuol9akNcr9AAI0","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/02/23 10:30:06am
+
+Compra Fallida IDCLIENTE: 1042
+EMAIL: infantex2@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_TG1pQJIoreI7wv05","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/23 10:33:36am
+
+Compra Fallida IDCLIENTE: 1042
+EMAIL: infantex2@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_u3OGLB4YaIoaf1de","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/23 10:34:13am
+
+Compra Fallida IDCLIENTE: 1048
+EMAIL: anahilavado@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"No puedes utilizar un token más de una vez: 'tkn_live_GtDDvCftptvBizQK'. Además, recordar también que expiran tras 5 minutos  de ser creados.","user_message":"La operación de compra ya fue efectuada, por favor verifica el estado actual de tu compra.","param":"source_id"}Hora y fecha: 2021/02/27 11:42:24am
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_IpYGOHcEmMatE6rG","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos mensual.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 12:29:38pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_e9DmEnqfCQDa1tqF","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos mensual.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 12:32:39pm
+
+Compra Fallida IDCLIENTE: 317
+EMAIL: danielap_93@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_enBWjUMG77LqVxjO","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 12:44:32pm
+
+Compra Fallida IDCLIENTE: 762
+EMAIL: joanvr95@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_LECKYeBRs6VOPurE","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/27 12:57:33pm
+
+Compra Fallida IDCLIENTE: 762
+EMAIL: joanvr95@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_ktIeRBT3c9CQLKCM","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/27 12:59:14pm
+
+Compra Fallida IDCLIENTE: 762
+EMAIL: joanvr95@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_Oz7dvIJQQaZzJl5y","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 01:01:49pm
+
+Compra Fallida IDCLIENTE: 762
+EMAIL: joanvr95@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_tuNjDI81BpaDL38R","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 01:02:54pm
+
+Compra Fallida IDCLIENTE: 762
+EMAIL: joanvr95@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_9LF7XrbBxEjFqO6f","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/02/27 01:04:39pm
+
+Compra Fallida IDCLIENTE: 1056
+EMAIL: andrea_christina29@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_ezGiE7lyYrVMbvuk","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/02/28 02:17:48pm
+
+Compra Fallida IDCLIENTE: 549
+EMAIL: dyaniraceron@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_fQ2ls94ejgVKNSLD","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/02 07:28:33pm
+
+Compra Fallida IDCLIENTE: 1060
+EMAIL: cristina1192@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_ml3YPqg664RsX0eW","code":"card_declined","decline_code":"expired_card","merchant_message":"Tarjeta vencida. La tarjeta está vencida o la fecha de vencimiento ingresada es incorrecta.","user_message":"Su tarjeta está vencida. Verifica la fecha de vencimiento de tu tarjeta e ingrésalos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta."}Hora y fecha: 2021/03/04 02:33:50pm
+
+Compra Fallida IDCLIENTE: 1061
+EMAIL: christiamlr@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"No puedes utilizar un token más de una vez: 'tkn_live_P5OXKjNEwZOxPjLO'. Además, recordar también que expiran tras 5 minutos  de ser creados.","user_message":"La operación de compra ya fue efectuada, por favor verifica el estado actual de tu compra.","param":"source_id"}Hora y fecha: 2021/03/04 08:09:18pm
+
+Compra Fallida IDCLIENTE: 1081
+EMAIL: reansm@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_ZCvU7W0Q5DaNohTs","code":"card_declined","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/03/09 07:49:00pm
+
+Compra Fallida IDCLIENTE: 1081
+EMAIL: reansm@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_GNefG1fLG12i0DDf","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/03/09 07:58:11pm
+
+Compra Fallida IDCLIENTE: 1081
+EMAIL: reansm@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_ci5ntzEOTybdH8FH","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/03/09 07:58:55pm
+
+Compra Fallida IDCLIENTE: 1081
+EMAIL: reansm@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_u7bw2Ms8UI8NkH45","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/03/09 07:59:59pm
+
+Compra Fallida IDCLIENTE: 1086
+EMAIL: renatoespinozacollado@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_o6VDP1BUQKaDA7ba","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/12 12:26:13pm
+
+Compra Fallida IDCLIENTE: 1091
+EMAIL: kgwcompany@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_p1z31ozeRPX9x7L2","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/12 08:39:59pm
+
+Compra Fallida IDCLIENTE: 1055
+EMAIL: luisqs1@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_sKr2XJq9VcTWVlti","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/13 02:47:53pm
+
+Compra Fallida IDCLIENTE: 1076
+EMAIL: diego_a_159@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_E1tCBUDh9LxzHW0z","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/25 12:17:13pm
+
+Compra Fallida IDCLIENTE: 1114
+EMAIL: igalquar@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_3vSx7JSvrm05cS2e","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/26 07:33:03pm
+
+Compra Fallida IDCLIENTE: 950
+EMAIL: rebaza.carlose@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_g01hxVfyIAE1mugY","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/28 02:26:31pm
+
+Compra Fallida IDCLIENTE: 950
+EMAIL: rebaza.carlose@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_gj7pSAeOZXuQtgRz","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/30 12:58:46pm
+
+Compra Fallida IDCLIENTE: 1122
+EMAIL: miluska.amez77@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_MtX8L8KtMxIVcsl5","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/03/31 07:26:37pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'email' es inválido o está vacío. El valor debe tener un formato válido de email y ser existente. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"email"}Hora y fecha: 2021/04/03 02:57:11pm
+
+Compra Fallida IDCLIENTE: 1138
+EMAIL: camila123myhome@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_beJeIKQ5XOAQ1V6D","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/06 06:48:35pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'last_name' es inválido o está vacío, debe ser de menos de 50 caracteres. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"last_name"}Hora y fecha: 2021/04/06 07:08:23pm
+
+Compra Fallida IDCLIENTE: 1141
+EMAIL: alluser2003@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_aV1pOTcNYZQCfnvl","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/08 10:33:16am
+
+Compra Fallida IDCLIENTE: 1142
+EMAIL: mariolychang@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_VpKL7oeJXGT11H7y","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/08 02:11:32pm
+
+Compra Fallida IDCLIENTE: 639
+EMAIL: shinzato11@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_uYwwRGD23JvauR03","code":"card_declined","decline_code":"expired_card","merchant_message":"Tarjeta vencida. La tarjeta está vencida o la fecha de vencimiento ingresada es incorrecta.","user_message":"Su tarjeta está vencida. Verifica la fecha de vencimiento de tu tarjeta e ingrésalos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta."}Hora y fecha: 2021/04/10 12:19:22pm
+
+Compra Fallida IDCLIENTE: 1148
+EMAIL: johanna_n19@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"Operación rechazada debido a que el usuario ha realizado operaciones fraudulentas previamente.","user_message":"Lo sentimos, su usuario no puede realizar compras por el momento. Contáctanos para indicarte el motivo de rechazo."}Hora y fecha: 2021/04/10 12:20:12pm
+
+Compra Fallida IDCLIENTE: 1148
+EMAIL: johanna_n19@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"Operación rechazada debido a que el usuario ha realizado operaciones fraudulentas previamente.","user_message":"Lo sentimos, su usuario no puede realizar compras por el momento. Contáctanos para indicarte el motivo de rechazo."}Hora y fecha: 2021/04/10 12:39:20pm
+
+Compra Fallida IDCLIENTE: 1157
+EMAIL: titanplayrepo@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_3J1ULRYQaRk1bT6V","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/15 12:56:45pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:25:04pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:29:35pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:30:43pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:31:28pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:32:18pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:32:54pm
+
+Compra Fallida IDCLIENTE: 916
+EMAIL: guzmans.marjorie@gmail.com
+Mensaje{"object":"error","type":"api_error","merchant_message":"Ups! Algo salió mal en Culqi. Contáctate con culqi.com/soporte  para obtener mas información."}Hora y fecha: 2021/04/16 12:33:50pm
+
+Compra Fallida IDCLIENTE: 1161
+EMAIL: carlosrill160@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_Hhi5z9YcO6c13Y0c","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/04/16 10:38:55pm
+
+Compra Fallida IDCLIENTE: 1161
+EMAIL: carlosrill160@gmail.com
+Mensaje{"object":"error","type":"operacion_denegada","charge_id":"chr_live_INpzcXygbfuu9Tcs","code":"DNGA0077","merchant_message":"Código de seguridad (CVV) es inválido.","user_message":"El código de seguridad (CVV) de su tarjeta es inválido. Intente nuevamente ó utilice otra tarjeta."}Hora y fecha: 2021/04/16 10:40:36pm
+
+Compra Fallida IDCLIENTE: 1163
+EMAIL: rengifo.silvana@gmail.com
+MensajeImposible conectar a Culqi APIHora y fecha: 2021/04/17 06:13:04pm
+
+Compra Fallida IDCLIENTE: 1171
+EMAIL: ford42c_u128w@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_eSekESYkcbfnoBAX","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/04/20 10:29:38pm
+
+Compra Fallida IDCLIENTE: 1171
+EMAIL: ford42c_u128w@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_cgOO33750ezLTRut","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/04/20 10:31:05pm
+
+Compra Fallida IDCLIENTE: 1171
+EMAIL: ford42c_u128w@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_5gkILD5jgLbdyiDE","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/04/20 10:31:57pm
+
+Compra Fallida IDCLIENTE: 1171
+EMAIL: ford42c_u128w@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_pkTtAz70uNz6TdZu","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos semanal.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/04/21 12:14:31am
+
+Compra Fallida IDCLIENTE: 1171
+EMAIL: ford42c_u128w@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_v34BK4U4u5YKOMRZ","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos semanal.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/04/21 12:16:05am
+
+Compra Fallida IDCLIENTE: 1172
+EMAIL: leydiguerrero@fuluj.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_zvvIqXvlNkqOYzkb","code":"","merchant_message":"La tarjeta del cliente ha excedido el número máximo de intentos semanal.","user_message":"Esta tarjeta ha excedido el número máximo de intentos de compra ."}Hora y fecha: 2021/04/21 08:26:51am
+
+Compra Fallida IDCLIENTE: 1173
+EMAIL: soto.shop91@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_17uqraV9KRiV3n1r","merchant_message":"Operación rechazada debido a que tiene una alta probabilidad de ser fraudulenta.","user_message":"  Lo sentimos, su operación fue rechazada. Contáctanos para más detalle."}Hora y fecha: 2021/04/22 03:00:31am
+
+Compra Fallida IDCLIENTE: 1173
+EMAIL: soto.shop91@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_JYwUXcV4h54BTDoq","merchant_message":"Operación rechazada debido a que tiene una alta probabilidad de ser fraudulenta.","user_message":"  Lo sentimos, su operación fue rechazada. Contáctanos para más detalle."}Hora y fecha: 2021/04/22 03:24:34am
+
+Compra Fallida IDCLIENTE: 1181
+EMAIL: gfisherl_t917t@bylup.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_miIb0kxJ9RF9uiqy","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/23 11:02:46pm
+
+Compra Fallida IDCLIENTE: 1182
+EMAIL: aditya05t_n282k@bylup.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_Ee0anicM1tGWKI10","code":"","merchant_message":"El teléfono del cliente ha excedido el número máximo de intentos semanal.","user_message":"Este teléfono ha excedido el número máximo de intentos de compra."}Hora y fecha: 2021/04/23 11:45:32pm
+
+Compra Fallida IDCLIENTE: 1115
+EMAIL: sarriamiguel@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_6gfOkEbNIfs2rk9G","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/25 12:35:17pm
+
+Compra Fallida IDCLIENTE: 1113
+EMAIL: carolita.9.6@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_9gFBtZ5yU2fkFEU5","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/04/30 05:25:40pm
+
+Compra Fallida IDCLIENTE: 161
+EMAIL: kchevarria@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_wYx6vNRlAcL6ovve","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/06 12:32:04pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'amount' es inválido.  El valor debe ser mayor o igual que '300' (3 soles) . ","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"amount"}Hora y fecha: 2021/05/06 05:36:29pm
+
+Compra Fallida IDCLIENTE: 1211
+EMAIL: anigrona@yahoo.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_gxc3KizvfbvagJtX","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/07 05:07:04pm
+
+Compra Fallida IDCLIENTE: 1215
+EMAIL: calberto2609@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_sxXA6WClj0GBAw2Y","code":"card_declined","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/05/08 02:53:02pm
+
+Compra Fallida IDCLIENTE: 539
+EMAIL: jishizawa@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_rp3TtNOSnIZc5Rx7","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/08 04:26:36pm
+
+Compra Fallida IDCLIENTE: 539
+EMAIL: jishizawa@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_4vefJ7oIBDWwyaL2","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/08 04:29:12pm
+
+Compra Fallida IDCLIENTE: 525
+EMAIL: alfreditoa@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_pYMoSbPA9dbVKZzo","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/08 05:21:26pm
+
+Compra Fallida IDCLIENTE: 381
+EMAIL: camilajuarez1205@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_mjHRhPBVMknIOa0O","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/09 01:36:51pm
+
+Compra Fallida IDCLIENTE: 1226
+EMAIL: venerovanessa@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_lHltMkDtBMrgUx73","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/12 07:04:59pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'last_name' es inválido o está vacío, debe ser de menos de 50 caracteres. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"last_name"}Hora y fecha: 2021/05/12 08:19:44pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_IDCAQazIXqC0Ozpb","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/13 07:09:26pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_U1vrtZsAsTRdZ4Kt","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/13 07:12:07pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_EExsAIH8yugGnEAs","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/13 07:14:22pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_AZpjTjCry0KpzZlZ","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/13 07:16:49pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_YaiCHJXiQVtPwuUh","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/13 07:21:54pm
+
+Compra Fallida IDCLIENTE: 1220
+EMAIL: s_zarabia@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_xLoytoQZCd10nTsw","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/13 07:24:07pm
+
+Compra Fallida IDCLIENTE: 1033
+EMAIL: shzarabia@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_WXxDkUcExoESUIL3","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/13 07:27:08pm
+
+Compra Fallida IDCLIENTE: 871
+EMAIL: jorge.tanaka@pucp.pe
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_6VTOimD1S3jdJurO","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/14 08:34:18pm
+
+Compra Fallida IDCLIENTE: 470
+EMAIL: dpalacios.llaque@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_sawgZaaZr8TVLAIe","code":"card_declined","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/05/16 02:20:50pm
+
+Compra Fallida IDCLIENTE: 1241
+EMAIL: fiorella.olivarodriguez@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_JHWsXcJki28dpMsJ","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/18 06:12:22pm
+
+Compra Fallida IDCLIENTE: 639
+EMAIL: shinzato11@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_PvchtRZgFTOSsFk6","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/20 12:14:34pm
+
+Compra Fallida IDCLIENTE: 1244
+EMAIL: javian_2190@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_D67Us83oUHPPDLI9","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/20 06:30:51pm
+
+Compra Fallida IDCLIENTE: 1256
+EMAIL: rosariovelasquezd@gmail.com
+MensajeImposible conectar a Culqi APIHora y fecha: 2021/05/22 02:22:03pm
+
+Compra Fallida IDCLIENTE: 1168
+EMAIL: robinsongarcia0112@gmail.com
+Mensaje{"message": "Endpoint request timed out"}Hora y fecha: 2021/05/24 03:31:02pm
+
+Compra Fallida IDCLIENTE: 1267
+EMAIL: helensilva123456@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_ENTrjMxb7PaBVIxL","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/25 08:46:04pm
+
+Compra Fallida IDCLIENTE: 1267
+EMAIL: helensilva123456@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_XXYw6ehHrSAwJ21F","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/05/25 08:47:29pm
+
+Compra Fallida IDCLIENTE: 1267
+EMAIL: helensilva123456@hotmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_k61EH77j60yl6nW4","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/05/25 08:49:01pm
+
+Compra Fallida IDCLIENTE: 643
+EMAIL: akp.ogata@gmail.com
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"No puedes utilizar un token más de una vez: 'tkn_live_Yn7LzH0nKqI76Wep'. Además, recordar también que expiran tras 5 minutos  de ser creados.","user_message":"La operación de compra ya fue efectuada, por favor verifica el estado actual de tu compra.","param":"source_id"}Hora y fecha: 2021/05/29 01:45:43pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_jVu3cZcBMvQvKkNU","code":"card_declined","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/01 12:36:42pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_08sJ38mZuQuUjSev","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/01 12:38:29pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_To9RLULwGpAZWaFQ","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 12:44:42pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_6UpBRdW3hVDbIBEY","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 12:49:09pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_Slj7zZv50qBwHUl9","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 12:53:27pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_GekukvKj2wMQy9ow","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 01:17:15pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_vByWXQ0imNu9YnIW","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 01:20:49pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_jnzJTeXmTKvYSK9l","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 01:21:32pm
+
+Compra Fallida IDCLIENTE: 94
+EMAIL: bre.brunnergd@gmail.com
+Mensaje{"object":"error","type":"parameter_error","charge_id":"chr_live_8kBojhIWk3TKuMyr","code":"","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/06/01 01:22:41pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'phone_number' es inválido o está vacío. El valor debe ser de menos de 15 caracteres, y más de 5. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"phone_number"}Hora y fecha: 2021/06/01 08:30:59pm
+
+Compra Fallida IDCLIENTE: 1166
+EMAIL: marthagamarrac@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_NLAWhDBuXOMwUxeG","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/02 07:37:15pm
+
+Compra Fallida IDCLIENTE: 1166
+EMAIL: marthagamarrac@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_s0mATg9t11QTW2po","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/02 07:41:24pm
+
+Compra Fallida IDCLIENTE: 549
+EMAIL: dyaniraceron@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_OlqDjKctVTTUblAS","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/12 11:49:22am
+
+Compra Fallida IDCLIENTE: 228
+EMAIL: gonsalasf@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_6Njae9re67pGZVeu","code":"card_declined","decline_code":"issuer_decline_operation","merchant_message":"Operación denegada. La operación fue denegada por el banco emisor de la tarjeta por una razón desconocida. ","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/12 06:30:58pm
+
+Compra Fallida IDCLIENTE: 1103
+EMAIL: yoh.002@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_c25n3iVrONwhzoOL","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/13 12:51:37pm
+
+Compra Fallida IDCLIENTE: 891
+EMAIL: rodrinava1@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_7qUyg3Rm21hzgHI3","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/15 12:58:24pm
+
+Compra Fallida IDCLIENTE: 639
+EMAIL: shinzato11@hotmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_wC2AJzV6JFsrvPOA","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/16 12:17:39pm
+
+Compra Fallida IDCLIENTE: 
+EMAIL: 
+Mensaje{"object":"error","type":"parameter_error","merchant_message":"El campo 'last_name' es inválido o está vacío, debe ser de menos de 50 caracteres. Revisar la referencia del API en https://www.culqi.com/api.","user_message":"Hubo algunos problemas al intentar validar tu compra. Contáctanos para ayudarte.","param":"last_name"}Hora y fecha: 2021/06/17 01:48:15pm
+
+Compra Fallida IDCLIENTE: 450
+EMAIL: juanmanuelsecada@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_2l4BMuYPNmoYEXi5","code":"card_declined","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/17 08:42:27pm
+
+Compra Fallida IDCLIENTE: 1299
+EMAIL: reboraromina@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/19 06:51:41pm
+
+Compra Fallida IDCLIENTE: 1299
+EMAIL: reboraromina@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/19 06:52:57pm
+
+Compra Fallida IDCLIENTE: 1245
+EMAIL: daniela.rebora@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/19 07:03:19pm
+
+Compra Fallida IDCLIENTE: 106
+EMAIL: augusto.8558@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/06/20 01:11:25pm
+
+Compra Fallida IDCLIENTE: 1322
+EMAIL: correomayu@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/20 02:07:32pm
+
+Compra Fallida IDCLIENTE: 1066
+EMAIL: mejiape9@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/20 06:11:53pm
+
+Compra Fallida IDCLIENTE: 1339
+EMAIL: lbp173@outlook.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_4Kx1ODCWW7Odaf1Y","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/25 07:58:17pm
+
+Compra Fallida IDCLIENTE: 1162
+EMAIL: adiana.0304@gmail.com
+Mensaje{"object":"error","type":"card_error","charge_id":"chr_live_hBjABL2LF0SAQm9Z","code":"card_declined","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/26 01:14:04pm
+
+Compra Fallida IDCLIENTE: 1347
+EMAIL: jopa320@hotmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/06/30 06:02:38pm
+
+Compra Fallida IDCLIENTE: 1348
+EMAIL: shuarcaya08@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"insufficient_funds","merchant_message":"Fondos insuficientes. La tarjeta no tiene fondos suficientes para realizar la compra.","user_message":"Su tarjeta no tiene fondos suficientes. Para realizar la compra, verifica tus fondos disponibles con el banco emisor o inténta nuevamente con otra tarjeta."}Hora y fecha: 2021/07/02 12:20:28pm
+
+Compra Fallida IDCLIENTE: 1356
+EMAIL: mant.patricia.azabache@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/07/05 08:00:20pm
+
+Compra Fallida IDCLIENTE: 1356
+EMAIL: mant.patricia.azabache@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"invalid_card","merchant_message":"Tarjeta inválida. La tarjeta utilizada tiene restricciones para este tipo de compras. El cliente necesita contactarse con el banco emisor para conocer el motivo de la denegación.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/07/05 08:02:34pm
+
+Compra Fallida IDCLIENTE: 1356
+EMAIL: mant.patricia.azabache@gmail.com
+Mensaje{"codigo":"","object":"error","type":"parameter_error","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/07/05 08:04:35pm
+
+Compra Fallida IDCLIENTE: 1356
+EMAIL: mant.patricia.azabache@gmail.com
+Mensaje{"codigo":"","object":"error","type":"parameter_error","merchant_message":"El correo del cliente ha excedido el número máximo de intentos diario.","user_message":"Este cliente ha excedido el número máximo de intentos de compra"}Hora y fecha: 2021/07/05 08:07:15pm
+
+Compra Fallida IDCLIENTE: 1360
+EMAIL: jgonzalesa@uni.pe
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/07/07 09:11:01pm
+
+Compra Fallida IDCLIENTE: 1361
+EMAIL: jarad0389@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"contact_issuer","merchant_message":"Contactar emisor. La operación fue denegada por el banco emisor de la tarjeta y el cliente necesita contactarse con la entidad para conocer el motivo.","user_message":"La operación ha sido denegada por la entidad emisora de tu tarjeta. Contáctate con el banco para conocer el motivo de la denegación o intenta nuevamente con otra tarjeta."}Hora y fecha: 2021/07/08 03:51:05pm
+
+Compra Fallida IDCLIENTE: 606
+EMAIL: pepeluilam71@gmail.com
+Mensaje{"codigo":"card_declined","object":"error","type":"card_error","decline_code":"incorrect_cvv","merchant_message":"CVV incorrecto. El código de seguridad (CVV2, CVC2, CID) de la tarjeta es incorrecto.","user_message":"El código de seguridad (CVV) es incorrecto. Verifica tu tarjeta e ingresa los dígitos correctamente. Si es denegada nuevamente, contáctate con el banco emisor de tu tarjeta. "}Hora y fecha: 2021/07/10 07:00:57pm
+

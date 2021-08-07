@@ -1,0 +1,342 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/helvetica.ttf");
+}
+
+@font-face {
+    font-family: "parasupreme";
+    src: url("../fonts/parasupreme.ttf");
+}
+
+@font-face {
+    font-family: "pacifico";
+    src: url("../fonts/pacifico.ttf");
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/raleway.ttf");
+}
+
+@font-face {
+    font-family: "wakeup";
+    src: url("../fonts/wakeup.ttf");
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/raleway.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/roboto.ttf");
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("../fonts/titilliumweb.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/Opensans.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat.ttf");
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.icon img {
+
+    color: #ffffff;
+}
+
+.btn1 {
+    background-color: #e7cf64;
+    color: black;
+    border: 2px solid #ffffff;
+}
+
+.btn1:hover {
+    background-color: #c23032;
+    color: white;
+}
+
+.btn2 {
+    background-color: #b8d57f;
+    color: black;
+    border: 2px solid #ffffff;
+}
+
+.btn2:hover {
+    background-color: #c23032;
+    color: white;
+}
+
+.btn3 {
+    background-color: #e7cf64;
+    color: black;
+    border: 2px solid #000000;
+}
+
+.btn3:hover {
+    background-color: #c23032;
+    color: #000000;
+}
+
+.btn4 {
+    background-color: #e7cf64;
+    color: black;
+    border: 2px solid #000000;
+}
+
+.btn4:hover {
+    background-color: #c23032;
+    color: white;
+}
+
+.btn5 {
+    background-color: #e7cf64;
+    color: black;
+
+}
+
+.btn5:hover {
+    background-color: #c23032;
+    color: white;
+}
+
+.btn6 {
+    background-color: #e7cf64;
+    color: black;
+    border: 2px solid #000000;
+
+}
+
+.btn6:hover {
+    background-color: #c23032;
+    color: white;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover,
+#contact input[type="url"]:hover, #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #c23032;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #000000;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus, #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+
+#barraNavegacion .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#customBtn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 100%;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+}
+#customBtn:hover {
+    cursor: pointer;
+}
+span.label {
+    font-family: serif;
+    font-weight: normal;
+}
+span.icon {
+    background: url('../img/g-normal.png') transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+}
+span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #c23032;
+    background-color: #c23032;
+}
+
+@media screen and (max-width: 400px) {
+    .social {
+        position: fixed;
+        right: 0;
+        top: 95px;
+        z-index: 2000;
+    }
+
+    .social ul li a {
+
+        padding: 10px 15px;
+
+    }
+}
+
+
+.social{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    float: right;
+}
+
+
+
+.social ul li .icon-facebook{
+    background:#3b5998;
+}
+.social ul li .icon-instagram{
+    background:#e4405f;
+}
+
+.social ul li .icon-whatsapp{
+    background:#25d366;
+}
+.social ul li .icon-whatsapp-san-borja{
+    background:#1b9648;
+}
+.btn-danger{
+    background-color: #c23032 !important;
+}
+.text-danger{
+    color: #c23032!important;
+}
+.bg-danger{
+    background-color: #c23032!important;
+}
+.badge-danger {
+    background-color: #c23032!important;
+}
+:root {
+    --swiper-theme-color: #c23032!important;
+}

@@ -1,0 +1,14 @@
+
+.card-categoria{
+    width: 320px;border: 0;background-color: transparent;cursor: pointer;
+}
+.card-categoria .card-body{
+    width: 100%;height: inherit;border-radius: 40px;
+}
+.card-categoria .img-categoria{
+    width: inherit;height: inherit;border-radius: 40px;object-fit: cover;filter: brightness(50%);
+}
+.swiper-container {
+    width: 100%;
+    height: 230px;
+}
