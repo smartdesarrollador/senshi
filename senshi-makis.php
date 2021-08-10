@@ -90,7 +90,9 @@ foreach ($lista as $item) {
                                         <div class="col text-center d-flex flex-column ">
                                             <p>Medio (5 piezas)</p>
                                             <p class="card-title align-self-end mt-auto mr-auto ml-auto">
-                                                S/. <?php echo ($campo['precioProducto'] / 2) + 1 ?>.00</p>
+                                                <strike>S/. <?php echo ($campo['precioProducto'] / 2) + 1 ?>.00</strike><br>
+                                                S/. <?php echo round(((($campo['precioProducto'] / 2) + 1) * 85) / 100) ?>.00
+                                            </p>
 
                                             <div class=" m-0 p-0">
                                                 <input name="<?php echo $radioName ?>" style="transform: scale(1.5);" class=" m-0 p-0 radioMedioMaki" type="radio">
@@ -101,7 +103,9 @@ foreach ($lista as $item) {
                                         <div class="col text-center d-flex flex-column ">
                                             <p>Entero (10 piezas)</p>
                                             <p class="card-title align-self-end mt-auto mr-auto ml-auto">
-                                                S/. <?php echo $campo['precioProducto'] ?>.00</p>
+                                                <strike>S/. <?php echo $campo['precioProducto'] ?>.00</strike><br>
+                                                S/. <?php echo round(($campo['precioProducto'] * 85) / 100) ?>.00
+                                            </p>
                                             <div class=" m-0 p-0">
                                                 <input name="<?php echo $radioName ?>" style="transform: scale(1.5);" class="t m-0 p-0" type="radio" checked>
                                             </div>
@@ -134,7 +138,7 @@ foreach ($lista as $item) {
                                     </button>
                                     <?php /* echo ($campo['stock'] == 'NOT') ? '<small class="text-danger d-block">Agotado</small>' : '' */ ?>
                                     <?php if ($campo['acumulaNPuntos'] > 0) { ?>
-                                        <strong class="d-block text-danger">Acumula <?php echo $campo['acumulaNPuntos'] ?> puntos</strong>
+                                        <strong class="d-block text-danger">Acumula <?php echo round(($campo['acumulaNPuntos'] * 85) / 100) ?> puntos</strong>
                                     <?php } ?>
                                 </div>
 

@@ -82,7 +82,8 @@ foreach ($lista as $item) {
                         </div>
                         <div class="col-12 col-md-6 col-lg-1 col-xl-1 d-flex align-items-center">
                             <span class="my-2">
-                                S/. <?php echo $campo['precioProducto'] ?>.00
+                                <strike>S/. <?php echo $campo['precioProducto'] ?>.00</strike><br>
+                                S/. <?php echo round(($campo['precioProducto'] * 85) / 100) ?>.00
                             </span>
 
                         </div>
@@ -108,7 +109,7 @@ foreach ($lista as $item) {
                                 </button>
                                 <?php /* echo ($campo['stock'] == 'NOT') ? '<small class="text-danger d-block">Agotado</small>' : '' */ ?>
                                 <?php if ($campo['acumulaNPuntos'] > 0) { ?>
-                                    <strong class="d-block text-danger">Acumula <?php echo $campo['acumulaNPuntos'] ?> puntos</strong>
+                                    <strong class="d-block text-danger">Acumula <?php echo round(($campo['acumulaNPuntos'] * 85) / 100) ?> puntos</strong>
                                 <?php } ?>
                             </div>
 

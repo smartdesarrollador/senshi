@@ -40,7 +40,7 @@ if (isset($_REQUEST['action']) && !empty($_REQUEST['action'])) {
             }
 
             if (isset($_REQUEST['adicional'])) {
-                $adicional = $_REQUEST['adicional'];
+                $adicional = $_REQUEST['adicional'] + 1;
                 $precioProducto += $adicional;
             }
 
@@ -58,29 +58,35 @@ if (isset($_REQUEST['action']) && !empty($_REQUEST['action'])) {
             // MAKIS ENTEROS O MEDIA POCIÓN
             if (isset($_REQUEST['porcion'])) {
                 if ($_REQUEST['porcion'] == 'medio') {
-                    $precioProducto = ($precioProducto / 2)+1;
-                    $productoIngredientes.= ' - medio';
-                }else{
-                    $productoIngredientes.= ' - entero';
+                    $precioProducto = ($precioProducto / 2) + 1;
+                    $productoIngredientes .= ' - medio';
+                } else {
+                    $productoIngredientes .= ' - entero';
                 }
             }
 
             /* Tacos */
-            if(isset($_REQUEST['shake'])){
-            $shake = $_REQUEST['shake'];
-            $productoIngredientes = $productoIngredientes." - ".$shake;
+            if (isset($_REQUEST['shake'])) {
+                $shake = $_REQUEST['shake'];
+                $productoIngredientes = $productoIngredientes . " - " . $shake;
             }
 
-            if(isset($_REQUEST['katsuo'])){
-            $katsuo = $_REQUEST['katsuo'];
-            $productoIngredientes = $productoIngredientes." - ".$katsuo; 
+            if (isset($_REQUEST['katsuo'])) {
+                $katsuo = $_REQUEST['katsuo'];
+                $productoIngredientes = $productoIngredientes . " - " . $katsuo;
             }
 
-            if(isset($_REQUEST['tnt'])){
-            $tnt = $_REQUEST['tnt']; 
-            $productoIngredientes = $productoIngredientes." - ".$tnt;
+            if (isset($_REQUEST['tnt'])) {
+                $tnt = $_REQUEST['tnt'];
+                $productoIngredientes = $productoIngredientes . " - " . $tnt;
             }
             /* End Tacos */
+
+            if (isset($_REQUEST['dirigidoA'])) {
+                $precioProducto = $precioProducto;
+            } else {
+                $precioProducto = round(($precioProducto * 85) / 100);
+            }
 
             $itemData = array(
                 'id' => $row['idProducto'],
@@ -88,7 +94,7 @@ if (isset($_REQUEST['action']) && !empty($_REQUEST['action'])) {
                 'price' => $precioProducto,
                 'imagenProducto' => $row['imagenProducto'],
                 'qty' => $cantidad,
-                'acumulaPuntos' => $row['acumulaNPuntos'],
+                'acumulaPuntos' => round(($row['acumulaNPuntos'] * 85) / 100),
                 'productoObservaciones' => $row['productoObservaciones'],
                 'productoIngredientes' => $productoIngredientes,
                 'giftTipo' => $giftTipo,
@@ -128,14 +134,12 @@ if (isset($_REQUEST['action']) && !empty($_REQUEST['action'])) {
         //ajax
         /*echo $updateItem ? 'ok' : 'err';
         die;*/
-
     } elseif ($_REQUEST['action'] == 'removeCartItem' && !empty($_REQUEST['id'])) {
         $deleteItem = $cart->remove($_REQUEST['id']);
         header("Location: ../carrito.php");
     } elseif ($_REQUEST['action'] == 'destroyCart') {
         $cart->destroy();
         header("Location: ../carrito.php");
-
     } elseif ($_REQUEST['action'] == 'placeOrder' && $cart->total_items() > 0 && !empty($_SESSION['current_customer_idCliente'])) {
 
         $idCliente = $_SESSION['current_customer_idCliente'];
@@ -174,8 +178,6 @@ if (isset($_REQUEST['action']) && !empty($_REQUEST['action'])) {
     } else {
         header("Location: index.php");
     }
-
-
 } else {
     header("Location: ../index.php");
 }

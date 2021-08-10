@@ -134,6 +134,22 @@ $ingredientes = $objProductoIngrediente->getIngredientesByIdProducto(268);
                                                     <?php }
                                                     }
                                                     ?>
+                                                    <div class="row mt-2">
+                                                        <div class="col"><small>YAKUZA MAKI</small></div>
+                                                        <div class="col">
+                                                            <div class="input-group justify-content-center">
+                                                                <div class="input-group-prepend input-group-append">
+                                                                    <button onclick="changeQtyMin0(this,'minus',0,2)" class="btn btn-sm btn-light" type="button">
+                                                                        <i class="fas fa-minus"></i>
+                                                                    </button>
+                                                                    <input required onkeypress="return solonumeros(event);" type="number" readonly data-nombreIngrediente="YAKUZA MAKI" minlength="1" class="form-control text-center" min="0" name="cantidad" value="0" placeholder="Cantidad" aria-label="Cantidad" aria-describedby="button-addon2">
+                                                                    <button onclick="changeQtyMin0(this,'add',0,2)" type="button" class="btn btn-sm btn-light">
+                                                                        <i class="fas fa-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -163,6 +179,9 @@ $ingredientes = $objProductoIngrediente->getIngredientesByIdProducto(268);
                                                     <?php }
                                                     }
                                                     ?>
+
+
+
                                                 </div>
                                             </div>
                                         </div>

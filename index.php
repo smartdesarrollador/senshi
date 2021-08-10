@@ -119,7 +119,7 @@ $listaCategorias = $objTipoProducto->getTipoProductos();
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top:95px">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <!-- <div class="carousel-item active">
                 <img src="img/bannersv2/banner-1-min.jpg" class="d-none d-md-block w-100" alt="banner senshi">
                 <img src="img/bannersv2/bannerMovil.jpg" class="d-block d-md-none w-100" alt="banner senshi">
             </div>
@@ -127,7 +127,20 @@ $listaCategorias = $objTipoProducto->getTipoProductos();
             <div class="carousel-item">
                 <img src="img/bannersv2/banner-2-min.jpg" class="d-none d-md-block w-100" alt="banner senshi">
                 <img src="img/bannersv2/bannerNovil2.jpg" class="d-block d-md-none w-100" alt="banner senshi">
+            </div> -->
+            <div class="carousel-item active">
+                <img src="img/bannersv2/senshi-banner-3.jpg" class="d-none d-md-block w-100" alt="banner senshi">
+                <img src="img/bannersv2/movil-3.jpg" class="d-block d-md-none w-100" alt="banner senshi">
             </div>
+            <div class="carousel-item">
+                <img src="img/bannersv2/senshi-banner-2.jpg" class="d-none d-md-block w-100" alt="banner senshi">
+                <img src="img/bannersv2/movil-2.jpg" class="d-block d-md-none w-100" alt="banner senshi">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bannersv2/senshi-banner-1.jpg" class="d-none d-md-block w-100" alt="banner senshi">
+                <img src="img/bannersv2/movil-4.jpg" class="d-block d-md-none w-100" alt="banner senshi">
+            </div>
+
 
 
         </div>

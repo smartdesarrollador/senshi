@@ -61229,3 +61229,29 @@ Array
 ---2021/08/07 02:11:46pm
 
 
+Array
+(
+    [f718499c1c8cef6730f9fd03c8125cab61129ed338d4d] => Array
+        (
+            [id] => 256
+            [name] => GYOZA AL VAPOR (5 unid)
+            [price] => 16
+            [imagenProducto] => GYOZAALVAPOR(5unid)607b297780827.jpg
+            [qty] => 2
+            [acumulaPuntos] => 21
+            [productoObservaciones] => 
+            [productoIngredientes] => 
+            [giftTipo] => 
+            [emailGift] => 
+            [dedicatoriaGift] => 
+            [giftValor] => 0
+            [rowid] => f718499c1c8cef6730f9fd03c8125cab61129ed338d4d
+            [subtotal] => 32
+            [subtotalPuntos] => 42
+            [subtotalGiftValor] => 0
+        )
+
+)
+---2021/08/10 10:49:02am
+
+

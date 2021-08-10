@@ -267,7 +267,7 @@ $totalAPagar = $cart->total();
 
                         <div class="row">
                             <div class="col text-center">
-                                <strong class="text-danger">Acumulas <?php echo $puntosAacumular ?>
+                                <strong class="text-danger">Acumulas <?php echo round(($puntosAacumular * 85) / 100) ?>
                                     puntos</strong>
                                 <hr>
                             </div>
@@ -461,7 +461,7 @@ $totalAPagar = $cart->total();
                                 <p class="text-center">Haz tu pedido para recojo en tienda y
                                     lo recoges de 30 a 60 minutos aproximadamente. Consultar el tiempo exacto de espera por
                                     whatsapp.</p>
-                                
+
 
                             </div>
                         </div>

@@ -55,12 +55,11 @@ require '../vendor/autoload.php';
 
 if ($_SESSION['finalStoreTienda'] == 1) {
     //Llave Secreta Integracion Shisoku
-    //$SECRET_KEY = "sk_test_54114b6d8381cefe";
+    $SECRET_KEY = "sk_test_54114b6d8381cefe";
 
 
     //Llave Secreta Produccion Shisoku
-    $SECRET_KEY = "sk_live_20f93d969f1f1b90";
-    
+    /* $SECRET_KEY = "sk_live_20f93d969f1f1b90"; */
 }
 
 if ($_SESSION['finalStoreTienda'] == 2) {
@@ -79,7 +78,6 @@ if ($_SESSION['local'] == 'lince') {
 
     //Llave Secreta Produccion Shisoku
     $SECRET_KEY = "sk_live_20f93d969f1f1b90";
-    
 }
 
 if ($_SESSION['local'] == 'san_borja') {
@@ -204,44 +202,11 @@ try {
     $latitud = $_SESSION['current_customer_lat'];
     $longitud = $_SESSION['current_customer_lng'];
 
-   if($_SESSION['local'] == 'lince'){
-    if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') {
-        $pedidoInsertado = $objPedido->addPedido(
-            $customerID,
-            '-',
-            $telefono,
-            $observaciones,
-            $totalPipe,
-            $puntosGanados,
-            $lastFour,
-            $card_number,
-            $horaPedido,
-            $brand,
-            $saldoBilletera,
-            1,
-            'false',
-            '-',
-            '-',
-            $_SESSION['current_customer_tipoDocumento'],
-            $razonSocial,
-            $direccionFiscal,
-            $ruc,
-            $latitud,
-            $longitud,
-            0
-        );
-    } 
-   }
-
-    
-        
-        
-        
-        if ($_SESSION['finalStoreTienda'] == 1) {
-
+    if ($_SESSION['local'] == 'lince') {
+        if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') {
             $pedidoInsertado = $objPedido->addPedido(
                 $customerID,
-                $direccion,
+                '-',
                 $telefono,
                 $observaciones,
                 $totalPipe,
@@ -251,28 +216,30 @@ try {
                 $horaPedido,
                 $brand,
                 $saldoBilletera,
-                $horarioPedido,
-                'true',
-                $referencia,
-                $distrito,
+                1,
+                'false',
+                '-',
+                '-',
                 $_SESSION['current_customer_tipoDocumento'],
                 $razonSocial,
                 $direccionFiscal,
                 $ruc,
                 $latitud,
                 $longitud,
-                $_SESSION['finalShippingCost']
+                0
             );
         }
-   
+    }
 
-   
 
-if($_SESSION['local'] == 'san_borja'){
-    if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') {
-        $pedidoInsertado = $objPedido->addPedidoSanBorja(
+
+
+
+    if ($_SESSION['finalStoreTienda'] == 1) {
+
+        $pedidoInsertado = $objPedido->addPedido(
             $customerID,
-            '-',
+            $direccion,
             $telefono,
             $observaciones,
             $totalPipe,
@@ -282,33 +249,28 @@ if($_SESSION['local'] == 'san_borja'){
             $horaPedido,
             $brand,
             $saldoBilletera,
-            1,
-            'false',
-            'san_borja',
-            '-',
-            '-',
+            $horarioPedido,
+            'true',
+            $referencia,
+            $distrito,
             $_SESSION['current_customer_tipoDocumento'],
             $razonSocial,
             $direccionFiscal,
             $ruc,
             $latitud,
             $longitud,
-            0
+            $_SESSION['finalShippingCost']
         );
-    } 
-    
-}
- 
+    }
 
 
-        
-        
-        
-        if ($_SESSION['finalStoreTienda'] == 2)  {
 
+
+    if ($_SESSION['local'] == 'san_borja') {
+        if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') {
             $pedidoInsertado = $objPedido->addPedidoSanBorja(
                 $customerID,
-                $direccion,
+                '-',
                 $telefono,
                 $observaciones,
                 $totalPipe,
@@ -318,21 +280,56 @@ if($_SESSION['local'] == 'san_borja'){
                 $horaPedido,
                 $brand,
                 $saldoBilletera,
-                $horarioPedido,
-                'true',
+                1,
+                'false',
                 'san_borja',
-                $referencia,
-                $distrito,
+                '-',
+                '-',
                 $_SESSION['current_customer_tipoDocumento'],
                 $razonSocial,
                 $direccionFiscal,
                 $ruc,
                 $latitud,
                 $longitud,
-                $_SESSION['finalShippingCost']
+                0
             );
         }
-  
+    }
+
+
+
+
+
+
+    if ($_SESSION['finalStoreTienda'] == 2) {
+
+        $pedidoInsertado = $objPedido->addPedidoSanBorja(
+            $customerID,
+            $direccion,
+            $telefono,
+            $observaciones,
+            $totalPipe,
+            $puntosGanados,
+            $lastFour,
+            $card_number,
+            $horaPedido,
+            $brand,
+            $saldoBilletera,
+            $horarioPedido,
+            'true',
+            'san_borja',
+            $referencia,
+            $distrito,
+            $_SESSION['current_customer_tipoDocumento'],
+            $razonSocial,
+            $direccionFiscal,
+            $ruc,
+            $latitud,
+            $longitud,
+            $_SESSION['finalShippingCost']
+        );
+    }
+
 
 
 

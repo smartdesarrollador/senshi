@@ -111,21 +111,21 @@ $_SESSION['horario_pedido'] = $horarioPedido;
 ?>
 
 <?php if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') { ?>
-    <?php if ($_SESSION['local'] == 'lince'){ ?>
-            <script>
+    <?php if ($_SESSION['local'] == 'lince') { ?>
+        <script>
             /* Llave Publica Integracion Shisoku   */
             /* Culqi.publicKey = 'pk_test_3afb3b16a90b0842'; */
 
 
             /* Llave Publica Produccion Shisoku */
             Culqi.publicKey = 'pk_live_b8f7979b2593c2d1';
-            </script>
+        </script>
     <?php } ?>
 
-    <?php if ($_SESSION['local'] == 'san_borja'){ ?>
-            <script>
-                /* Llave Publica Integracion Conga   */
-           /* Culqi.publicKey = 'pk_test_dc454cb22426e5f0'; */
+    <?php if ($_SESSION['local'] == 'san_borja') { ?>
+        <script>
+            /* Llave Publica Integracion Conga   */
+            /* Culqi.publicKey = 'pk_test_dc454cb22426e5f0'; */
 
             /* Llave Publica Integracion Fumiko  */
             //Culqi.publicKey = 'pk_test_5533d6f78dbbb7b2';
@@ -133,9 +133,9 @@ $_SESSION['horario_pedido'] = $horarioPedido;
 
             /* Llave Publica Produccion Fumiko */
             Culqi.publicKey = 'pk_live_eef5c93e21246cc7';
-            </script>
+        </script>
     <?php } ?>
-    
+
 <?php } ?>
 
 <?php
@@ -2782,11 +2782,11 @@ if ($_SESSION['envio'] == 'recojo' || $_SESSION['solo_gift_cards'] == 'true') {
 
                                 if (finalStoreLocal == 1) {
                                     /* Publica Integracion Shisoku */
-                                    /* Culqi.publicKey = ' pk_test_3afb3b16a90b0842'; */
+                                    Culqi.publicKey = ' pk_test_3afb3b16a90b0842';
 
 
                                     /* Publica Produccion Shisoku*/
-                                    Culqi.publicKey = 'pk_live_b8f7979b2593c2d1';
+                                    /* Culqi.publicKey = 'pk_live_b8f7979b2593c2d1'; */
                                 }
 
                                 if (finalStoreLocal == 2) {
